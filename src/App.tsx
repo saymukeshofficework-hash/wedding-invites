@@ -32,6 +32,7 @@ import Calculators from './pages/Calculators'
 import CalculatorDetail from './pages/CalculatorDetail'
 import UnitConverter from './pages/UnitConverter'
 import KdpCoverMaker from './pages/KdpCoverMaker'
+import DpiIncreaser from './pages/DpiIncreaser'
 import Resources from './pages/Resources'
 import ResourceDetail from './pages/ResourceDetail'
 import MockTests from './pages/MockTests'
@@ -113,6 +114,7 @@ export default function App() {
           <Route path="/calculators/:slug" element={<CalculatorDetail />} />
 
           <Route path="/tools/kdp-cover-maker" element={<KdpCoverMaker />} />
+          <Route path="/tools/dpi-increaser" element={<DpiIncreaser />} />
 
           {/* 3D Virtual Biology Lab */}
           <Route path="/virtual-lab" element={<VirtualLabHub />} />

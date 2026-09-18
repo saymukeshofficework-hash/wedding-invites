@@ -69,6 +69,7 @@ export const navGroups: NavGroup[] = [
       { label: 'Calculators', to: '/calculators' },
       { label: 'Unit Converter', to: '/calculators/converter' },
       { label: 'KDP Cover Maker', to: '/tools/kdp-cover-maker', badge: 'New' },
+      { label: 'Image DPI Increaser', to: '/tools/dpi-increaser', badge: 'New' },
     ],
   },
 ]

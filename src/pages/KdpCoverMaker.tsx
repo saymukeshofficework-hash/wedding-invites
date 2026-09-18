@@ -99,7 +99,7 @@ export default function KdpCoverMaker() {
     try {
       const scale = TARGET_DPI / currentDpi
       const upscaled = await upscaleDataUrl(layer.src, scale)
-      updateImage(key, { src: upscaled })
+      updateImage(key, { src: upscaled.dataUrl })
     } catch (err) {
       console.error('Increase DPI failed', err)
       setEnhanceError({ key, message: err instanceof Error ? err.message : 'Could not increase DPI for this image.' })
