@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://mukesh.tettesthub.in/sitemap.xml
