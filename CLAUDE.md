@@ -10,7 +10,7 @@ never in the TETTESTHUB repo (Mock-test) or Exam Hub.
 - Push to `main` runs `.github/workflows/deploy.yml`, which copies the site files into `_site`.
 - Each invitation = one folder at the root, e.g. `durgesh-sanjana-vivah-video/` -> 
   https://invite.tettesthub.in/durgesh-sanjana-vivah-video/
-- New folder: also add it to the `cp -r ...` line in the workflow (it copies `durgesh-*`;
+- New folder: also add it to the `cp -r ...` line in the workflow (it copies `durgesh-*` and `sanjana-*`;
   for other names add the folder explicitly).
 
 ## Rules
